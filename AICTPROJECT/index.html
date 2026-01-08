@@ -3,460 +3,254 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>V&V Luxury | Professional Fashion Store</title>
+    <title>AICT Project | StudioPulse Digital</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-
-    <!-- Announcement Bar -->
     <div class="announcement-bar">
-        <p>🔥 FREE SHIPPING ON ORDERS OVER $99 | NEW ARRIVALS JUST DROPPED</p>
+        <p>✨ AICT Submission: Responsive Website, SQL Design, and Canva Assets</p>
     </div>
 
     <nav class="main-nav">
         <div class="nav-container">
-            <div class="logo">Vogue<span>&</span>Value</div>
+            <a class="logo" href="#home">
+                <img src="assets/logo.svg" alt="StudioPulse logo" class="logo-mark" />
+                <span>StudioPulse</span>
+            </a>
             <button class="menu-toggle" aria-label="Toggle menu">
                 <i class="fas fa-bars"></i>
             </button>
-
-            <div class="search-container">
-                <i class="fas fa-search"></i>
-                <input type="text" placeholder="Search for long coats, shirts..." />
-                <button class="search-btn">Search</button>
-            </div>
-
             <ul class="nav-links">
-                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="#shop"><i class="fas fa-store"></i> Shop</a></li>
-                <li><a href="#new"><i class="fas fa-fire"></i> New</a></li>
-                <li><a href="#collections"><i class="fas fa-layer-group"></i> Collections</a></li>
-                <li><a href="#auth"><i class="fas fa-user"></i> Account</a></li>
-                <li class="cart-btn"><i class="fas fa-shopping-cart"></i> <span class="cart-count">3</span></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Carousel Section -->
     <header id="home" class="hero-section">
-        <div class="carousel">
-            <div class="carousel-slide active">
-                <div class="hero-overlay">
-                    <h1 class="hero-title">2026 WINTER COLLECTION</h1>
-                    <p class="hero-subtitle">Premium Quality | Global Shipping | Zero Compromise</p>
-                    <a href="#shop" class="shop-now-btn">Explore Now <i class="fas fa-arrow-right"></i></a>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="eyebrow">Creative Tech Studio</p>
+                <h1>Build, Brand, and Grow with a Unified Digital Team</h1>
+                <p>
+                    StudioPulse is an AICT showcase project that blends web design, basic SQL
+                    modeling, and Canva-ready assets into one cohesive delivery.
+                </p>
+                <div class="hero-actions">
+                    <a class="primary-btn" href="#contact">Start a Project</a>
+                    <a class="ghost-btn" href="#services">View Services</a>
+                </div>
+                <div class="hero-highlights">
+                    <div>
+                        <h3>4</h3>
+                        <p>Core Services</p>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                        <p>SQL Tables</p>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                        <p>Canva Assets</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-slide">
-                <div class="hero-overlay">
-                    <h1 class="hero-title">SUSTAINABLE FASHION</h1>
-                    <p class="hero-subtitle">Eco-Friendly Materials | Ethical Production</p>
-                    <a href="#collections" class="shop-now-btn secondary">Discover More <i class="fas fa-leaf"></i></a>
-                </div>
-            </div>
-            <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
-            <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
-            <div class="carousel-dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
+            <div class="hero-media">
+                <img src="assets/banner.svg" alt="StudioPulse website banner" />
             </div>
         </div>
     </header>
 
-    <!-- Stats Section -->
-    <section class="stats-section">
-        <div class="stats-container">
-            <div class="stat-item">
-                <i class="fas fa-shipping-fast"></i>
-                <h3>Free Shipping</h3>
-                <p>On orders over $99</p>
-            </div>
-            <div class="stat-item">
-                <i class="fas fa-undo-alt"></i>
-                <h3>30-Day Returns</h3>
-                <p>Hassle-free returns</p>
-            </div>
-            <div class="stat-item">
-                <i class="fas fa-shield-alt"></i>
-                <h3>Secure Payment</h3>
-                <p>100% secure transactions</p>
-            </div>
-            <div class="stat-item">
-                <i class="fas fa-headset"></i>
-                <h3>24/7 Support</h3>
-                <p>Expert customer service</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- New Arrivals Section -->
-    <section id="new" class="new-arrivals">
+    <section id="about" class="about-section">
         <div class="section-header">
-            <h2 class="section-title">New Arrivals</h2>
-            <a href="#shop" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            <h2>About the Project</h2>
+            <p>This AICT project demonstrates a complete mini brand kit with web, database, and Canva deliverables.</p>
         </div>
-        <div class="arrivals-grid">
-            <div class="product-card">
-                <div class="product-badge">NEW</div>
-                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400" alt="Designer Coat">
-                <div class="product-info">
-                    <h3>Premium Wool Coat</h3>
-                    <p class="product-price">$249.99 <span class="old-price">$299.99</span></p>
-                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                </div>
+        <div class="about-grid">
+            <div class="about-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Foundation</h3>
+                <p>Multi-section HTML + CSS layout covering Home, About, Services, and Contact.</p>
             </div>
-            <div class="product-card">
-                <div class="product-badge">SALE</div>
-                <img src="https://images.unsplash.com/photo-1536766820879-059fec98ec0a?w-400" alt="Cashmere Sweater">
-                <div class="product-info">
-                    <h3>Cashmere Sweater</h3>
-                    <p class="product-price">$179.99 <span class="old-price">$229.99</span></p>
-                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                </div>
+            <div class="about-card">
+                <i class="fas fa-database"></i>
+                <h3>SQL Blueprint</h3>
+                <p>Three-table structure with CRUD queries for clients, services, and inquiries.</p>
             </div>
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" alt="Designer Jeans">
-                <div class="product-info">
-                    <h3>Designer Jeans</h3>
-                    <p class="product-price">$129.99</p>
-                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                </div>
+            <div class="about-card">
+                <i class="fas fa-palette"></i>
+                <h3>Canva Basics</h3>
+                <p>Logo, banner, and social poster prepared as clean vector assets.</p>
             </div>
         </div>
     </section>
 
-    <!-- Auth Section (Updated) -->
-    <section id="auth" class="auth-section">
+    <section id="services" class="services-section">
         <div class="section-header">
-            <h2 class="section-title">Join Our Fashion Community</h2>
-            <p>Get exclusive deals and early access to new collections</p>
+            <h2>Services / Features</h2>
+            <p>Each feature is aligned with the requirements to showcase a full-stack creative workflow.</p>
         </div>
-        <div class="auth-wrapper">
-            <input type="radio" name="tab" id="login-tab" checked />
-            <input type="radio" name="tab" id="signup-tab" />
-
-            <div class="tab-headers">
-                <label for="login-tab" class="tab-label">
-                    <i class="fas fa-sign-in-alt"></i> Login
-                </label>
-                <label for="signup-tab" class="tab-label">
-                    <i class="fas fa-user-plus"></i> Sign Up
-                </label>
-            </div>
-
-            <div class="form-container">
-                <form id="login-form" class="auth-form">
-                    <div class="input-group">
-                        <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email Address" required />
-                    </div>
-                    <div class="input-group">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" required />
-                    </div>
-                    <div class="form-options">
-                        <label class="checkbox">
-                            <input type="checkbox"> Remember me
-                        </label>
-                        <a href="#forgot" class="forgot-link">Forgot Password?</a>
-                    </div>
-                    <button class="primary-btn" type="submit">Log In <i class="fas fa-arrow-right"></i></button>
-                    <div class="social-login">
-                        <p>Or continue with</p>
-                        <div class="social-buttons">
-                            <button type="button" class="social-btn google">
-                                <i class="fab fa-google"></i> Google
-                            </button>
-                            <button type="button" class="social-btn facebook">
-                                <i class="fab fa-facebook-f"></i> Facebook
-                            </button>
-                        </div>
-                    </div>
-                </form>
-
-                <form id="signup-form" class="auth-form">
-                    <div class="input-group">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Full Name" required />
-                    </div>
-                    <div class="input-group">
-                        <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email Address" required />
-                    </div>
-                    <div class="input-group">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Create Password" required />
-                    </div>
-                    <div class="input-group">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Confirm Password" required />
-                    </div>
-                    <label class="checkbox">
-                        <input type="checkbox" required>
-                        I agree to the <a href="#terms">Terms & Conditions</a>
-                    </label>
-                    <button class="primary-btn" type="submit">Join Now <i class="fas fa-check"></i></button>
-                </form>
-            </div>
+        <div class="services-grid">
+            <article class="service-card">
+                <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+                <h3>Brand Identity</h3>
+                <p>Visual systems including logo usage, colors, and typography guidance.</p>
+                <ul>
+                    <li>Logo lockups</li>
+                    <li>Color palette</li>
+                    <li>Typeface selection</li>
+                </ul>
+            </article>
+            <article class="service-card">
+                <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                <h3>UI Experience</h3>
+                <p>Modern layout built to highlight key sections and conversion touchpoints.</p>
+                <ul>
+                    <li>Hero banner</li>
+                    <li>Service cards</li>
+                    <li>Contact form</li>
+                </ul>
+            </article>
+            <article class="service-card">
+                <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Growth Assets</h3>
+                <p>Basic Canva-style visuals ready for posts and marketing campaigns.</p>
+                <ul>
+                    <li>Poster layout</li>
+                    <li>Social media caption area</li>
+                    <li>CTA placement</li>
+                </ul>
+            </article>
+            <article class="service-card">
+                <div class="service-icon"><i class="fas fa-server"></i></div>
+                <h3>Database Plan</h3>
+                <p>Structured SQL document with table creation and CRUD examples.</p>
+                <ul>
+                    <li>Client records</li>
+                    <li>Service catalog</li>
+                    <li>Inquiry tracking</li>
+                </ul>
+            </article>
         </div>
     </section>
 
-    <!-- Collections Section -->
-    <section id="collections" class="collections-section">
+    <section class="database-section">
         <div class="section-header">
-            <h2 class="section-title">Featured Collections</h2>
-            <p>Curated selections for every occasion</p>
+            <h2>Database (SQL – theoretical)</h2>
+            <p>The following snippet is also stored in <strong>database.sql</strong>.</p>
         </div>
-        <div class="collections-grid">
-            <div class="collection-card large">
-                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800" alt="Winter Essentials">
-                <div class="collection-content">
-                    <h3>Winter Essentials</h3>
-                    <p>Stay warm in style</p>
-                </div>
-            </div>
-            <div class="collection-card">
-                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w-600" alt="Office Wear">
-                <div class="collection-content">
-                    <h3>Office Wear</h3>
-                    <p>Professional elegance</p>
-                </div>
-            </div>
-            <div class="collection-card">
-                <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w-600" alt="Weekend Casual">
-                <div class="collection-content">
-                    <h3>Weekend Casual</h3>
-                    <p>Comfort meets style</p>
-                </div>
-            </div>
-        </div>
+        <pre class="code-block"><code>CREATE TABLE clients (
+    client_id INT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(120) UNIQUE NOT NULL,
+    phone VARCHAR(20)
+);
+
+CREATE TABLE services (
+    service_id INT PRIMARY KEY,
+    service_name VARCHAR(80) NOT NULL,
+    base_price DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE inquiries (
+    inquiry_id INT PRIMARY KEY,
+    client_id INT NOT NULL,
+    service_id INT NOT NULL,
+    message TEXT,
+    status VARCHAR(20) DEFAULT 'New',
+    FOREIGN KEY (client_id) REFERENCES clients(client_id),
+    FOREIGN KEY (service_id) REFERENCES services(service_id)
+);
+
+INSERT INTO clients (client_id, full_name, email, phone)
+VALUES (1, 'Ayesha Khan', 'ayesha@studiopulse.com', '+92 312 555 0101');
+
+SELECT clients.full_name, services.service_name, inquiries.status
+FROM inquiries
+JOIN clients ON clients.client_id = inquiries.client_id
+JOIN services ON services.service_id = inquiries.service_id;
+
+UPDATE inquiries
+SET status = 'In Progress'
+WHERE inquiry_id = 1;
+
+DELETE FROM inquiries
+WHERE inquiry_id = 3;</code></pre>
     </section>
 
-    <!-- Shop Section (Updated) -->
-    <section id="shop" class="shop-grid">
+    <section class="canva-section">
         <div class="section-header">
-            <h2 class="section-title">Shop by Category</h2>
-            <div class="category-filter">
-                <button class="filter-btn active">All</button>
-                <button class="filter-btn">Men</button>
-                <button class="filter-btn">Women</button>
-                <button class="filter-btn">Accessories</button>
-            </div>
+            <h2>Canva (Basic)</h2>
+            <p>Starter visuals prepared for banner, logo, and social media post.</p>
         </div>
-
-        <div class="grid-container">
-            <!-- Grid items remain the same but with added product cards -->
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400" alt="Men's Jeans" />
-                <div class="product-info">
-                    <h3>Men's Jeans</h3>
-                    <p class="product-price">From $89.99</p>
-                    <button class="quick-view">Quick View</button>
-                </div>
-            </div>
-            <!-- Repeat for other categories with similar structure -->
+        <div class="canva-grid">
+            <figure class="canva-card">
+                <img src="assets/logo.svg" alt="StudioPulse logo mark" />
+                <figcaption>Logo</figcaption>
+            </figure>
+            <figure class="canva-card">
+                <img src="assets/banner.svg" alt="StudioPulse website banner" />
+                <figcaption>Website Banner</figcaption>
+            </figure>
+            <figure class="canva-card">
+                <img src="assets/poster.svg" alt="StudioPulse poster" />
+                <figcaption>Poster / Social Media Post</figcaption>
+            </figure>
         </div>
     </section>
 
-    <!-- Newsletter Section -->
-    <section class="newsletter-section">
-        <div class="newsletter-container">
-            <h2>Stay in the Fashion Loop</h2>
-            <p>Subscribe for exclusive offers, style tips, and new arrivals</p>
-            <form class="newsletter-form">
-                <div class="input-group">
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" placeholder="Enter your email" required>
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>Contact</h2>
+            <p>Send a message to begin your next creative collaboration.</p>
+        </div>
+        <div class="contact-grid">
+            <form class="contact-form">
+                <div class="form-row">
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required />
                 </div>
-                <button type="submit" class="subscribe-btn">Subscribe</button>
+                <div class="form-row">
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="you@email.com" required />
+                </div>
+                <div class="form-row">
+                    <label for="service">Service Needed</label>
+                    <select id="service" name="service" required>
+                        <option value="">Choose one</option>
+                        <option value="branding">Brand Identity</option>
+                        <option value="website">Website Design</option>
+                        <option value="marketing">Marketing Assets</option>
+                        <option value="database">Database Setup</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="message">Project Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your project" required></textarea>
+                </div>
+                <button class="primary-btn" type="submit">Submit Form</button>
             </form>
-        </div>
-    </section>
-
-    <!-- Testimonial Section -->
-    <section class="testimonial-section">
-        <div class="section-header">
-            <h2 class="section-title">What Our Customers Say</h2>
-        </div>
-        <div class="testimonials">
-            <div class="testimonial-card">
-                <div class="testimonial-content">
-                    <p>"The quality is exceptional! My winter coat arrived in perfect condition."</p>
+            <div class="contact-details">
+                <div>
+                    <h3>StudioPulse HQ</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 22 Design Street, Karachi</p>
+                    <p><i class="fas fa-phone"></i> +92 300 123 4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@studiopulse.pk</p>
                 </div>
-                <div class="testimonial-author">
-                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah">
-                    <div>
-                        <h4>Sarah Johnson</h4>
-                        <p>Verified Customer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="testimonial-content">
-                    <p>"Best online shopping experience. The fit guide helped me choose the right size."</p>
-                </div>
-                <div class="testimonial-author">
-                    <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Michael">
-                    <div>
-                        <h4>Michael Chen</h4>
-                        <p>Verified Customer</p>
-                    </div>
+                <div class="contact-highlight">
+                    <h4>Hours</h4>
+                    <p>Mon - Fri: 9:00 AM – 6:00 PM</p>
+                    <p>Sat: 10:00 AM – 2:00 PM</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Rating Section (Updated) -->
-    <div class="rating-box">
-        <div class="rating-content">
-            <h4>How do you rate our shop?</h4>
-            <p>Your feedback helps us improve</p>
-            <div class="stars">
-                <input type="radio" id="r5" name="rate" /><label for="r5">★</label>
-                <input type="radio" id="r4" name="rate" /><label for="r4">★</label>
-                <input type="radio" id="r3" name="rate" /><label for="r3">★</label>
-                <input type="radio" id="r2" name="rate" /><label for="r2">★</label>
-                <input type="radio" id="r1" name="rate" /><label for="r1">★</label>
-            </div>
-            <button class="submit-rating">Submit Rating</button>
-        </div>
-    </div>
-
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/923001234567" class="whatsapp-fixed" target="_blank">
-        <div class="wa-icon">
-            <i class="fab fa-whatsapp"></i>
-        </div>
-        <span class="wa-text">Chat with Experts</span>
-        <span class="wa-notification">1</span>
-    </a>
-
-    <!-- Back to Top Button -->
-    <button class="back-to-top">
-        <i class="fas fa-chevron-up"></i>
-    </button>
-
-    <!-- Footer (Updated) -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-grid">
-                <div class="footer-col" id="about">
-                    <div class="logo">Vogue<span>&</span>Value</div>
-                    <p class="footer-desc">
-                        We are a global fashion leader providing sustainable and high-quality clothing
-                        for modern men and women since 2010.
-                    </p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-col" id="shop-links">
-                    <h3>Shop</h3>
-                    <a href="#men" class="footer-link">Men's Collection</a>
-                    <a href="#women" class="footer-link">Women's Collection</a>
-                    <a href="#new" class="footer-link">New Arrivals</a>
-                    <a href="#sale" class="footer-link">Sale Items</a>
-                    <a href="#accessories" class="footer-link">Accessories</a>
-                </div>
-
-                <div class="footer-col" id="company">
-                    <h3>Company</h3>
-                    <a href="#about" class="footer-link">About Us</a>
-                    <a href="#careers" class="footer-link">Careers</a>
-                    <a href="#press" class="footer-link">Press</a>
-                    <a href="#sustainability" class="footer-link">Sustainability</a>
-                    <a href="#affiliates" class="footer-link">Affiliate Program</a>
-                </div>
-
-                <div class="footer-col" id="contact">
-                    <h3>Contact & Support</h3>
-                    <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> 123 Fashion Blvd, New York, NY 10001</p>
-                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                        <p><i class="fas fa-envelope"></i> help@voguevalue.com</p>
-                    </div>
-                    <div class="support-links">
-                        <a href="#faq" class="footer-link">FAQ</a>
-                        <a href="#shipping" class="footer-link">Shipping Policy</a>
-                        <a href="#returns" class="footer-link">Return Policy</a>
-                        <a href="#size-guide" class="footer-link">Size Guide</a>
-                        <a href="#complaints" class="footer-link">File a Complaint</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div class="payment-methods">
-                    <i class="fab fa-cc-visa"></i>
-                    <i class="fab fa-cc-mastercard"></i>
-                    <i class="fab fa-cc-amex"></i>
-                    <i class="fab fa-cc-paypal"></i>
-                    <i class="fab fa-cc-apple-pay"></i>
-                </div>
-                <p class="copy">&copy; 2026 Vogue &amp; Value. All Rights Reserved. Compliant with Copyright Laws.</p>
-                <div class="footer-legal">
-                    <a href="#privacy">Privacy Policy</a>
-                    <a href="#terms">Terms of Service</a>
-                    <a href="#cookies">Cookie Policy</a>
-                </div>
-            </div>
-        </div>
+        <p>© 2026 StudioPulse Digital. Crafted for the AICT Project.</p>
     </footer>
-
-    <!-- <script>
-        // Simple carousel functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const slides = document.querySelectorAll('.carousel-slide');
-            const dots = document.querySelectorAll('.dot');
-            const prevBtn = document.querySelector('.carousel-prev');
-            const nextBtn = document.querySelector('.carousel-next');
-            let currentSlide = 0;
-
-            function showSlide(n) {
-                slides.forEach(slide => slide.classList.remove('active'));
-                dots.forEach(dot => dot.classList.remove('active'));
-                
-                currentSlide = (n + slides.length) % slides.length;
-                
-                slides[currentSlide].classList.add('active');
-                dots[currentSlide].classList.add('active');
-            }
-
-            nextBtn?.addEventListener('click', () => showSlide(currentSlide + 1));
-            prevBtn?.addEventListener('click', () => showSlide(currentSlide - 1));
-
-            dots.forEach((dot, index) => {
-                dot.addEventListener('click', () => showSlide(index));
-            });
-
-            // Auto slide every 5 seconds
-            setInterval(() => showSlide(currentSlide + 1), 5000);
-
-            // Back to top button
-            const backToTopBtn = document.querySelector('.back-to-top');
-            window.addEventListener('scroll', () => {
-                backToTopBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
-            });
-            
-            backToTopBtn?.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-
-            // Mobile menu toggle
-            const menuToggle = document.querySelector('.menu-toggle');
-            const navLinks = document.querySelector('.nav-links');
-            
-            menuToggle?.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-            });
-        });
-    </script> -->
-
 </body>
 </html>
