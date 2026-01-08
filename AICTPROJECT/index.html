@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V&V Luxury | Professional Fashion Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>🔥 FREE SHIPPING ON ORDERS OVER $99 | NEW ARRIVALS JUST DROPPED</p>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">Vogue<span>&</span>Value</div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search for long coats, shirts..." />
+                <button class="search-btn">Search</button>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#shop"><i class="fas fa-store"></i> Shop</a></li>
+                <li><a href="#new"><i class="fas fa-fire"></i> New</a></li>
+                <li><a href="#collections"><i class="fas fa-layer-group"></i> Collections</a></li>
+                <li><a href="#auth"><i class="fas fa-user"></i> Account</a></li>
+                <li class="cart-btn"><i class="fas fa-shopping-cart"></i> <span class="cart-count">3</span></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel Section -->
+    <header id="home" class="hero-section">
+        <div class="carousel">
+            <div class="carousel-slide active">
+                <div class="hero-overlay">
+                    <h1 class="hero-title">2026 WINTER COLLECTION</h1>
+                    <p class="hero-subtitle">Premium Quality | Global Shipping | Zero Compromise</p>
+                    <a href="#shop" class="shop-now-btn">Explore Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="hero-overlay">
+                    <h1 class="hero-title">SUSTAINABLE FASHION</h1>
+                    <p class="hero-subtitle">Eco-Friendly Materials | Ethical Production</p>
+                    <a href="#collections" class="shop-now-btn secondary">Discover More <i class="fas fa-leaf"></i></a>
+                </div>
+            </div>
+            <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Free Shipping</h3>
+                <p>On orders over $99</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-undo-alt"></i>
+                <h3>30-Day Returns</h3>
+                <p>Hassle-free returns</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Secure Payment</h3>
+                <p>100% secure transactions</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Expert customer service</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section id="new" class="new-arrivals">
+        <div class="section-header">
+            <h2 class="section-title">New Arrivals</h2>
+            <a href="#shop" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="arrivals-grid">
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400" alt="Designer Coat">
+                <div class="product-info">
+                    <h3>Premium Wool Coat</h3>
+                    <p class="product-price">$249.99 <span class="old-price">$299.99</span></p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-badge">SALE</div>
+                <img src="https://images.unsplash.com/photo-1536766820879-059fec98ec0a?w-400" alt="Cashmere Sweater">
+                <div class="product-info">
+                    <h3>Cashmere Sweater</h3>
+                    <p class="product-price">$179.99 <span class="old-price">$229.99</span></p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" alt="Designer Jeans">
+                <div class="product-info">
+                    <h3>Designer Jeans</h3>
+                    <p class="product-price">$129.99</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Auth Section (Updated) -->
+    <section id="auth" class="auth-section">
+        <div class="section-header">
+            <h2 class="section-title">Join Our Fashion Community</h2>
+            <p>Get exclusive deals and early access to new collections</p>
+        </div>
+        <div class="auth-wrapper">
+            <input type="radio" name="tab" id="login-tab" checked />
+            <input type="radio" name="tab" id="signup-tab" />
+
+            <div class="tab-headers">
+                <label for="login-tab" class="tab-label">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </label>
+                <label for="signup-tab" class="tab-label">
+                    <i class="fas fa-user-plus"></i> Sign Up
+                </label>
+            </div>
+
+            <div class="form-container">
+                <form id="login-form" class="auth-form">
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email Address" required />
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" required />
+                    </div>
+                    <div class="form-options">
+                        <label class="checkbox">
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#forgot" class="forgot-link">Forgot Password?</a>
+                    </div>
+                    <button class="primary-btn" type="submit">Log In <i class="fas fa-arrow-right"></i></button>
+                    <div class="social-login">
+                        <p>Or continue with</p>
+                        <div class="social-buttons">
+                            <button type="button" class="social-btn google">
+                                <i class="fab fa-google"></i> Google
+                            </button>
+                            <button type="button" class="social-btn facebook">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <form id="signup-form" class="auth-form">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Full Name" required />
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email Address" required />
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Create Password" required />
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Confirm Password" required />
+                    </div>
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        I agree to the <a href="#terms">Terms & Conditions</a>
+                    </label>
+                    <button class="primary-btn" type="submit">Join Now <i class="fas fa-check"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="collections" class="collections-section">
+        <div class="section-header">
+            <h2 class="section-title">Featured Collections</h2>
+            <p>Curated selections for every occasion</p>
+        </div>
+        <div class="collections-grid">
+            <div class="collection-card large">
+                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800" alt="Winter Essentials">
+                <div class="collection-content">
+                    <h3>Winter Essentials</h3>
+                    <p>Stay warm in style</p>
+                </div>
+            </div>
+            <div class="collection-card">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w-600" alt="Office Wear">
+                <div class="collection-content">
+                    <h3>Office Wear</h3>
+                    <p>Professional elegance</p>
+                </div>
+            </div>
+            <div class="collection-card">
+                <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w-600" alt="Weekend Casual">
+                <div class="collection-content">
+                    <h3>Weekend Casual</h3>
+                    <p>Comfort meets style</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section (Updated) -->
+    <section id="shop" class="shop-grid">
+        <div class="section-header">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-filter">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Men</button>
+                <button class="filter-btn">Women</button>
+                <button class="filter-btn">Accessories</button>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <!-- Grid items remain the same but with added product cards -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400" alt="Men's Jeans" />
+                <div class="product-info">
+                    <h3>Men's Jeans</h3>
+                    <p class="product-price">From $89.99</p>
+                    <button class="quick-view">Quick View</button>
+                </div>
+            </div>
+            <!-- Repeat for other categories with similar structure -->
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <h2>Stay in the Fashion Loop</h2>
+            <p>Subscribe for exclusive offers, style tips, and new arrivals</p>
+            <form class="newsletter-form">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="section-header">
+            <h2 class="section-title">What Our Customers Say</h2>
+        </div>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"The quality is exceptional! My winter coat arrived in perfect condition."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah">
+                    <div>
+                        <h4>Sarah Johnson</h4>
+                        <p>Verified Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"Best online shopping experience. The fit guide helped me choose the right size."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Michael">
+                    <div>
+                        <h4>Michael Chen</h4>
+                        <p>Verified Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section (Updated) -->
+    <div class="rating-box">
+        <div class="rating-content">
+            <h4>How do you rate our shop?</h4>
+            <p>Your feedback helps us improve</p>
+            <div class="stars">
+                <input type="radio" id="r5" name="rate" /><label for="r5">★</label>
+                <input type="radio" id="r4" name="rate" /><label for="r4">★</label>
+                <input type="radio" id="r3" name="rate" /><label for="r3">★</label>
+                <input type="radio" id="r2" name="rate" /><label for="r2">★</label>
+                <input type="radio" id="r1" name="rate" /><label for="r1">★</label>
+            </div>
+            <button class="submit-rating">Submit Rating</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923001234567" class="whatsapp-fixed" target="_blank">
+        <div class="wa-icon">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <span class="wa-text">Chat with Experts</span>
+        <span class="wa-notification">1</span>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer (Updated) -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-col" id="about">
+                    <div class="logo">Vogue<span>&</span>Value</div>
+                    <p class="footer-desc">
+                        We are a global fashion leader providing sustainable and high-quality clothing
+                        for modern men and women since 2010.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col" id="shop-links">
+                    <h3>Shop</h3>
+                    <a href="#men" class="footer-link">Men's Collection</a>
+                    <a href="#women" class="footer-link">Women's Collection</a>
+                    <a href="#new" class="footer-link">New Arrivals</a>
+                    <a href="#sale" class="footer-link">Sale Items</a>
+                    <a href="#accessories" class="footer-link">Accessories</a>
+                </div>
+
+                <div class="footer-col" id="company">
+                    <h3>Company</h3>
+                    <a href="#about" class="footer-link">About Us</a>
+                    <a href="#careers" class="footer-link">Careers</a>
+                    <a href="#press" class="footer-link">Press</a>
+                    <a href="#sustainability" class="footer-link">Sustainability</a>
+                    <a href="#affiliates" class="footer-link">Affiliate Program</a>
+                </div>
+
+                <div class="footer-col" id="contact">
+                    <h3>Contact & Support</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Fashion Blvd, New York, NY 10001</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> help@voguevalue.com</p>
+                    </div>
+                    <div class="support-links">
+                        <a href="#faq" class="footer-link">FAQ</a>
+                        <a href="#shipping" class="footer-link">Shipping Policy</a>
+                        <a href="#returns" class="footer-link">Return Policy</a>
+                        <a href="#size-guide" class="footer-link">Size Guide</a>
+                        <a href="#complaints" class="footer-link">File a Complaint</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+                <p class="copy">&copy; 2026 Vogue &amp; Value. All Rights Reserved. Compliant with Copyright Laws.</p>
+                <div class="footer-legal">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#cookies">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script>
+        // Simple carousel functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.carousel-slide');
+            const dots = document.querySelectorAll('.dot');
+            const prevBtn = document.querySelector('.carousel-prev');
+            const nextBtn = document.querySelector('.carousel-next');
+            let currentSlide = 0;
+
+            function showSlide(n) {
+                slides.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                currentSlide = (n + slides.length) % slides.length;
+                
+                slides[currentSlide].classList.add('active');
+                dots[currentSlide].classList.add('active');
+            }
+
+            nextBtn?.addEventListener('click', () => showSlide(currentSlide + 1));
+            prevBtn?.addEventListener('click', () => showSlide(currentSlide - 1));
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => showSlide(index));
+            });
+
+            // Auto slide every 5 seconds
+            setInterval(() => showSlide(currentSlide + 1), 5000);
+
+            // Back to top button
+            const backToTopBtn = document.querySelector('.back-to-top');
+            window.addEventListener('scroll', () => {
+                backToTopBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+            });
+            
+            backToTopBtn?.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // Mobile menu toggle
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            menuToggle?.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script> -->
+
+</body>
+</html>
