@@ -1,0 +1,35 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" rx="48" fill="#1F2233"/>
+  <rect x="70" y="90" width="760" height="920" rx="36" fill="#F5F6FB"/>
+  <circle cx="680" cy="200" r="70" fill="#5C6CFF"/>
+  <circle cx="740" cy="280" r="40" fill="#FFB347"/>
+  <text x="130" y="220" fill="#2D3047" font-family="Segoe UI, sans-serif" font-size="44" font-weight="700">
+    Launch Your
+  </text>
+  <text x="130" y="270" fill="#2D3047" font-family="Segoe UI, sans-serif" font-size="44" font-weight="700">
+    Digital Presence
+  </text>
+  <text x="130" y="330" fill="#6B7280" font-family="Segoe UI, sans-serif" font-size="22">
+    Branding • Websites • Social Campaigns
+  </text>
+  <rect x="130" y="400" width="640" height="260" rx="24" fill="#FFFFFF" stroke="#E2E6F4" stroke-width="2"/>
+  <text x="160" y="460" fill="#2D3047" font-family="Segoe UI, sans-serif" font-size="20">
+    ✔ 3-step client onboarding
+  </text>
+  <text x="160" y="510" fill="#2D3047" font-family="Segoe UI, sans-serif" font-size="20">
+    ✔ SQL-ready project tracking
+  </text>
+  <text x="160" y="560" fill="#2D3047" font-family="Segoe UI, sans-serif" font-size="20">
+    ✔ Canva starter templates
+  </text>
+  <rect x="130" y="720" width="320" height="70" rx="35" fill="#5C6CFF"/>
+  <text x="185" y="765" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="20" font-weight="600">
+    Book a Call
+  </text>
+  <text x="130" y="840" fill="#6B7280" font-family="Segoe UI, sans-serif" font-size="18">
+    @studiopulse.pk
+  </text>
+  <text x="130" y="880" fill="#6B7280" font-family="Segoe UI, sans-serif" font-size="18">
+    hello@studiopulse.pk
+  </text>
+</svg>
